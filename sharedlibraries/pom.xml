@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.datasettest5</groupId>
+    <artifactId>mavenproject</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>sharedlibraries</artifactId>
+  
+  <dependencies>
+	  <!-- dependency 1 -->
+	  <dependency>
+		  <groupId>junit</groupId>
+		  <artifactId>junit</artifactId>
+		  <version>${v4.13}</version>
+	  </dependency>
+	  
+	  <!-- dependency 2 -->
+	  <dependency>
+		  <groupId>com.google.guava</groupId>
+    	  <artifactId>guava</artifactId>
+    	  <version>${v25.1.1-jre}</version>
+	  </dependency>
+	  
+	  <!-- dependency 3 -->
+	  <dependency>
+		  <groupId>org.scala-lang</groupId>
+    	  <artifactId>scala-library</artifactId>
+		  <version>${v2.14.0}</version>
+	  </dependency>
+  </dependencies>
+</project>

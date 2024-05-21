@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.datasettest5</groupId>
+  <artifactId>mavenproject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>mavenproject</name>
+  <modules>
+  	<module>sharedlibraries</module>
+  </modules>
+  
+  <properties>
+	  <!-- version 1 -->
+	  <v4.13>4.12</v4.13>
+	  <!-- version 2 -->
+	  <v25.1.1-jre>24.1.1-jre</v25.1.1-jre>
+	  <!-- version 3 -->
+	  <v2.14.0>2.13.0</v2.14.0>
+  </properties>
+</project>
